@@ -46,5 +46,6 @@ public class ActionClassPractice {
 		action.dragAndDrop(driver.findElement(By.partialLinkText("BANK")), driver.findElement(By.id("bank"))).perform();
 		Thread.sleep(5000);
 		driver.quit();
+		
 	}
 }
